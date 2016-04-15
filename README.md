@@ -1,4 +1,4 @@
-# Simplified, Immutable DateTime with no timezones
+# Simplified, Immutable DateTime with No Timezones
 
   - Pure UTC
   - Second-level accuracy
@@ -8,3 +8,7 @@
 ## Instalation
 
     npm install immutable-datetime
+
+## License
+
+This software is [BSD Licensed](/LICENSE).
