@@ -1,0 +1,23 @@
+{
+  "name": "immutable-datetime",
+  "version": "0.1.0",
+  "description": "Simplified, Immutable DateTime with no timezones (pure UTC)",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "mocha src/__tests__/*.js src/**/__tests__/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kodefox/immutable-datetime.git"
+  },
+  "keywords": [
+    "immutable",
+    "datetime"
+  ],
+  "author": "team@kodefox.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodefox/immutable-datetime/issues"
+  },
+  "homepage": "https://github.com/kodefox/immutable-datetime#readme"
+}
