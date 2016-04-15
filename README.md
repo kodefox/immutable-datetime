@@ -3,5 +3,8 @@
   - Pure UTC
   - Second-level accuracy
   - Chaining
-  - Most methods similar to native Date methods except no mutations
+  - Most methods similar to native Date but without mutations
 
+## Instalation
+
+    npm install immutable-datetime
