@@ -4,7 +4,7 @@
   "description": "Simplified, Immutable DateTime with No Timezones",
   "main": "lib/DateTime.js",
   "scripts": {
-    "build": "babel src --ignore '_*' --out-dir lib",
+    "build": "rimraf lib && babel src --ignore '_*' --out-dir lib",
     "prepublish": "npm run build",
     "lint": "eslint . --max-warnings 0",
     "typecheck": "flow",
@@ -25,7 +25,8 @@
     "eslint-plugin-flow-vars": "^0.3.0",
     "expect": "^1.16.0",
     "flow-bin": "^0.23.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2"
   },
   "repository": {
     "type": "git",
