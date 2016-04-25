@@ -1,2 +1,6 @@
+.babelrc
+.eslintignore
+.eslintrc
+.flowconfig
 _*
-src
+/src
