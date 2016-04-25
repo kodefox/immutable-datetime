@@ -1,6 +1,6 @@
 {
   "name": "immutable-datetime",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Simplified, Immutable DateTime with No Timezones",
   "main": "lib/DateTime.js",
   "scripts": {
